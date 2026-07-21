@@ -4,27 +4,26 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const rawLogs = [
-  { time: "00.000", service: "SYSTEM", message: "Kernel initialized. Node.js runtime booted." },
-  { time: "00.045", service: "NETWORK", message: "Binding to port 8080..." },
-  { time: "00.120", service: "DATABASE", message: "Connecting to primary cluster []... SUCCESS." },
-  { time: "00.180", service: "CACHE", message: "Redis pool established. 10ms latency." },
-  { time: "00.320", service: "SYSTEM", message: "API Gateway online. Accepting requests." },
-  { time: "01.102", service: "LOAD_BALANCER", message: "Traffic spike detected. Auto-scaling worker nodes." },
-  { time: "01.405", service: "AUTH", message: "Validating JWT signature... OK" },
-  { time: "01.890", service: "ROUTER", message: "GET /api/v1/users/metrics -> 200 OK (12ms)" },
-  { time: "02.300", service: "WEBSOCKET", message: "Client connected. Streaming live data." },
-  { time: "03.010", service: "WORKER", message: "Processing background job queue [1,000,000+ items]..." },
-  { time: "03.500", service: "WORKER", message: "Job queue completed successfully." },
-  { time: "04.100", service: "ROUTER", message: "POST /api/v1/erp/sync -> 201 Created (45ms)" },
-  { time: "04.880", service: "SYSTEM", message: "All services nominal. Zero downtime recorded." },
+  { time: "00.000", service: "SYSTEM", message: "Kernel initialized. TypeScript/Node.js runtime booted." },
+  { time: "00.045", service: "BUILD", message: "Compiling ReactJS frontend & Tailwind CSS..." },
+  { time: "00.120", service: "DATABASE", message: "Connecting to PostgreSQL & MongoDB clusters... SUCCESS." },
+  { time: "00.180", service: "CACHE", message: "Redis pool established. Services ready." },
+  { time: "00.320", service: "API", message: "Express API Gateway online. Accepting requests." },
+  { time: "01.102", service: "ROUTER", message: "GET /api/v1/projects -> 200 OK (12ms)" },
+  { time: "01.405", service: "IT_SERVICES", message: "Verifying Active Directory policies & network routes..." },
+  { time: "01.890", service: "AUTOMATION", message: "Executing OS automation & administrative scripts... OK" },
+  { time: "02.300", service: "WEBSOCKET", message: "Client connected. Streaming live telemetry." },
+  { time: "03.010", service: "PERFORMANCE", message: "Core Web Vitals & interface refactoring (Grade A+)" },
+  { time: "03.500", service: "DEPLOY", message: "MirchiHut & web application suites synchronized." },
+  { time: "04.100", service: "ROUTER", message: "POST /api/v1/contact -> 201 Created (18ms)" },
+  { time: "04.880", service: "SYSTEM", message: "All web services & network nodes operational." },
 ];
-
 export function LiveLogTerminal() {
   const [logs, setLogs] = useState<{ time: string; service: string; message: string }[]>([]);
 
   useEffect(() => {
     let timeoutIds: NodeJS.Timeout[] = [];
-    
+
     // Simulate terminal typing out logs over time
     rawLogs.forEach((log, index) => {
       const delay = index === 0 ? 500 : 500 + index * 400 + Math.random() * 300;
@@ -63,7 +62,7 @@ export function LiveLogTerminal() {
     <div className="relative w-full h-[400px] rounded-xl border border-white/10 bg-[#0a0a0a]/80 backdrop-blur-md shadow-2xl p-6 font-mono text-sm sm:text-xs overflow-hidden flex flex-col items-start justify-end group">
       {/* Glow effect */}
       <div className="absolute -top-32 -left-32 w-64 h-64 bg-brand/20 blur-[100px] rounded-full group-hover:bg-brand/30 transition-colors duration-700" />
-      
+
       {/* Terminal Header */}
       <div className="absolute top-0 left-0 w-full h-12 border-b border-white/5 bg-white/[0.02] flex items-center px-4 gap-2">
         <div className="w-3 h-3 rounded-full bg-red-500/80" />

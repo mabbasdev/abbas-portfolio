@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Left Content Area (7 columns) */}
           <div className="flex flex-col items-start justify-center lg:col-span-7">
             <AnimatedElement delay={0.1} direction="up" className="mb-6 flex flex-col items-start gap-4">
-              <button 
+              <button
                 onClick={toggleRecruiterMode}
                 className={`flex items-center gap-2 px-4 py-1.5 rounded-full border text-sm font-bold tracking-wide transition-all shadow-lg ${isRecruiterMode ? 'bg-[#ffaa00]/20 border-[#ffaa00]/50 text-[#ffaa00] shadow-[#ffaa00]/20' : 'bg-white/5 border-white/10 text-white/50 hover:bg-white/10'}`}
               >
@@ -49,9 +49,9 @@ export default function Hero() {
             <AnimatedElement delay={0.3} direction="up" className="max-w-xl mb-10">
               <p className="text-lg md:text-xl text-muted leading-relaxed font-medium">
                 {isRecruiterMode ? (
-                  <>I architect high-performance data systems. From powering national platforms with <strong className="text-white">1M+ users</strong> to scaling distributed enterprise ERPs. Zero downtime, proven ROI, and excellent cross-timezone async communication.</>
+                  <>Full-Stack Developer & IT Specialist bridging web development with systems engineering. Crafting modern web applications using TypeScript, MERN/PERN, and PHP, while managing end-to-end IT services, user access controls, operating system automation, and network operations.</>
                 ) : (
-                  <>I architect high-performance data systems. From powering national platforms with <strong className="text-white">1M+ users</strong> to scaling distributed enterprise ERPs. Production grade, zero compromise.</>
+                  <>Results-oriented Software & IT Specialist with hands-on experience in full-stack development (MERN/PERN) and enterprise IT support (Active Directory, network management). Proven track record optimizing front-end performance, building secure API integrations, and maintaining reliable system infrastructure.</>
                 )}
               </p>
             </AnimatedElement>
@@ -64,7 +64,7 @@ export default function Hero() {
                 Deployments & Impact
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              
+
               <button
                 onClick={() => setIsCVOpen(true)}
                 className={`group px-8 py-4 rounded-full text-white font-semibold flex items-center justify-center gap-2 transition-colors ${isRecruiterMode ? 'bg-[#ffaa00] hover:bg-[#e69900]' : 'bg-brand hover:bg-blue-600'}`}
@@ -75,7 +75,7 @@ export default function Hero() {
 
               <div className="flex gap-4 items-center pl-2">
                 <a
-                  href="https://github.com/Reyyan31"
+                  href="https://github.com/mabbasdev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`p-4 rounded-full bg-neutral-900 border border-neutral-800 text-white hover:bg-neutral-800 hover:border-neutral-700 transition-colors ${isRecruiterMode ? 'hover:text-[#ffaa00]' : 'hover:text-brand'}`}
@@ -83,7 +83,7 @@ export default function Hero() {
                   <GithubIcon className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/reyyan-alam-a23679363/"
+                  href="https://www.linkedin.com/in/mabbasdev/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 rounded-full bg-neutral-900 border border-neutral-800 text-white hover:bg-neutral-800 hover:border-neutral-700 hover:text-[#0a66c2] transition-colors"
@@ -131,7 +131,7 @@ export default function Hero() {
                     {/* Expertise Matrix */}
                     <div className="p-8 rounded-3xl border border-[#ffaa00]/30 bg-[#ffaa00]/5 backdrop-blur-xl shadow-2xl relative overflow-hidden group">
                       <div className="absolute top-0 right-0 w-32 h-32 bg-[#ffaa00]/10 blur-[60px] -z-10 group-hover:scale-150 transition-transform duration-700" />
-                      
+
                       <div className="flex items-center gap-4 mb-8">
                         <div className="p-3 rounded-2xl bg-[#ffaa00]/20 border border-[#ffaa00]/30">
                           <Briefcase className="w-6 h-6 text-[#ffaa00]" />
@@ -144,9 +144,21 @@ export default function Hero() {
 
                       <div className="space-y-6">
                         {[
-                          { label: "Backend Architecture", value: "98%", desc: "Distributed Systems, Redis, RabbitMQ" },
-                          { label: "Database Optimization", value: "95%", desc: "SQL Server Stored Procs, GeoJSON" },
-                          { label: "Infrastructure / DevOps", value: "90%", desc: "AWS, Docker, Stateless Scaling" }
+                          {
+                            label: "Frontend & UI Engineering",
+                            value: "92%",
+                            desc: "ReactJS, TypeScript, Tailwind CSS, JavaScript (ES6+), Responsive Design"
+                          },
+                          {
+                            label: "Full-Stack & Backend Web",
+                            value: "88%",
+                            desc: "Node.js, Express, PHP, MySQL, PostgreSQL, REST APIs"
+                          },
+                          {
+                            label: "IT Support & Infrastructure",
+                            value: "85%",
+                            desc: "Active Directory, Network Config, System Access, OS Scripting & Automation"
+                          }
                         ].map((stat, i) => (
                           <div key={stat.label} className="relative">
                             <div className="flex justify-between items-end mb-2">
@@ -154,11 +166,11 @@ export default function Hero() {
                               <span className="text-[#ffaa00] font-black text-xs font-mono">{stat.value}</span>
                             </div>
                             <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-                              <motion.div 
+                              <motion.div
                                 initial={{ width: 0 }}
                                 animate={{ width: stat.value }}
                                 transition={{ duration: 1, delay: 0.5 + (i * 0.1) }}
-                                className="h-full bg-gradient-to-r from-[#ffaa00] to-[#ffaa00]/40" 
+                                className="h-full bg-gradient-to-r from-[#ffaa00] to-[#ffaa00]/40"
                               />
                             </div>
                             <p className="text-[10px] text-white/30 mt-1.5 font-medium">{stat.desc}</p>
