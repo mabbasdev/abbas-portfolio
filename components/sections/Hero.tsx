@@ -49,9 +49,13 @@ export default function Hero() {
             <AnimatedElement delay={0.3} direction="up" className="max-w-xl mb-10">
               <p className="text-lg md:text-xl text-muted leading-relaxed font-medium">
                 {isRecruiterMode ? (
-                  <>Full-Stack Developer & IT Specialist bridging web development with systems engineering. Crafting modern web applications using TypeScript, MERN/PERN, and PHP, while managing end-to-end IT services, user access controls, operating system automation, and network operations.</>
+                  <>
+                    Computer Science Engineer & IT Specialist bridging full-stack web development with infrastructure operations. Skilled in ReactJS, TypeScript, PHP/SQL, and Active Directory system access controls—focused on delivering high-performance UI and reliable systems.
+                  </>
                 ) : (
-                  <>Results-oriented Software & IT Specialist with hands-on experience in full-stack development (MERN/PERN) and enterprise IT support (Active Directory, network management). Proven track record optimizing front-end performance, building secure API integrations, and maintaining reliable system infrastructure.</>
+                  <>
+                    Full-Stack Developer & IT Specialist engineering performant web applications and system tools. I build responsive frontends with ReactJS and Tailwind CSS, integrate robust backend APIs (Node.js, PHP, PostgreSQL), and automate desktop workflows.
+                  </>
                 )}
               </p>
             </AnimatedElement>
