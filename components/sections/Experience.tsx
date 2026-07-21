@@ -6,36 +6,36 @@ import { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 import { useRecruiterMode } from "@/components/providers/RecruiterModeProvider";
-import { TrendingUp, Award, Zap } from "lucide-react";
+import { TrendingUp } from "lucide-react";
 
 const experiences = [
   {
-    company: "Creative IT Park",
-    role: "Backend Developer",
-    date: "Jan 2026 – Present",
-    impact: "Maintained ≥99% uptime across live systems, standardized deployments, and built full HR/ERP platforms serving 12,000+ users.",
-    roi: "60% Admin Reduction"
+    company: "Islamabad Chamber of Commerce & Industry (ICCI)",
+    role: "IT Support Engineer Intern",
+    date: "Jul 2025 – Sep 2025",
+    impact: "Re-engineered official portal frontends using ReactJS and Tailwind CSS to resolve cross-device responsiveness issues, managed Active Directory user access policies, and configured local network IP schemas.",
+    roi: "UI Responsiveness & Core Vitals Lift"
   },
   {
-    company: "Nodescale LLC (US)",
-    role: "Backend Engineer (Remote)",
-    date: "Oct 2025 – Jan 2026",
-    impact: "Built a real-time event-discovery production backend (BuzzMap) delivering geolocation APIs to US standards in an async team.",
-    roi: "99.99% Node Uptime"
+    company: "Freelance & Independent Client Work",
+    role: "Full-Stack Web Developer",
+    date: "2025 – Present",
+    impact: "Delivered tailored web applications for client projects—including custom frontend layouts and technical assets for clients like Boiler Techniques—focusing on responsive design, modern UI/UX, and fast load times.",
+    roi: "Client-Centric Web Delivery"
   },
   {
-    company: "Seven Koncepts",
-    role: "Full Stack Software Engineer",
-    date: "Aug 2025 – Dec 2025",
-    impact: "Built and shipped content platforms and e-commerce projects across Node.js, Django, Flask, and PHP. Containerised services with Docker, deployed to AWS EC2/S3, and maintained CI/CD pipelines.",
-    roi: "Framework-Agnostic Delivery"
+    company: "Self-Initiated Software Projects",
+    role: "Full-Stack Engineer",
+    date: "2025 – Present",
+    impact: "Engineered independent production-grade applications including MirchiHut (an offline e-commerce engine with zero backend dependency), web-based lead capture tools integrated with Google Apps Script APIs, and dynamic JS tools.",
+    roi: "Zero-Overhead Architecture"
   },
   {
-    company: "National Testing Service (NTS)",
-    role: "Full Stack Developer",
-    date: "Jun 2025 – Aug 2025",
-    impact: "Improved page load times by 25% for 100,000+ active users. Integrated React with Laravel via JWT/OAuth.",
-    roi: "25% Performance Lift"
+    company: "Systems & Desktop Operations",
+    role: "IT & Scripting Automation Specialist",
+    date: "2025 – Present",
+    impact: "Developed native system scripts (PowerShell, Batch, VBScript, Python) to automate local developer workflows, system startup tasks, and administrative procedures.",
+    roi: "Automated Workflows"
   },
 ];
 
@@ -57,12 +57,12 @@ export default function Experience() {
     <Section id="experience">
       <AnimatedElement className="w-full mb-16">
         <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight">
-          {isRecruiterMode ? "Operational Impact History" : "Experience"}
+          {isRecruiterMode ? "Professional & Practical Impact" : "Experience"}
         </h2>
         <p className="text-muted max-w-2xl text-lg">
           {isRecruiterMode 
-            ? "A track record of engineering high-ROI platforms and leading mission-critical backend architectures."
-            : "A track record of engineering scalable platforms and leading backend architectures."}
+            ? "A proven track record delivering responsive web applications for clients, engineering independent full-stack builds, and managing IT infrastructure."
+            : "A showcase of professional internships, freelance client solutions, independent software builds, and system automation workflows."}
         </p>
       </AnimatedElement>
 
