@@ -36,7 +36,7 @@ const experiences = [
     date: "2025 – Present",
     impact: "Developed native system scripts (PowerShell, Batch, VBScript, Python) to automate local developer workflows, system startup tasks, and administrative procedures.",
     roi: "Automated Workflows"
-  },
+  }
 ];
 
 export default function Experience() {

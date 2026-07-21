@@ -2,9 +2,9 @@
 
 import { Section } from "@/components/ui/Section";
 import { AnimatedElement } from "@/components/ui/AnimatedElement";
-import { Mail, MapPin, Github, Linkedin } from "lucide-react";
-import { useRecruiterMode } from "@/components/providers/RecruiterModeProvider";
-
+import { Mail, MapPin } from "lucide-react";
+import { GithubIcon } from "@/components/icons/GithubIcon";
+import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 export default function AboutContact() {
   const { isRecruiterMode } = useRecruiterMode();
 
@@ -41,8 +41,8 @@ export default function AboutContact() {
               target="_blank"
               rel="noreferrer"
               className={`flex items-center justify-center gap-2 text-white font-bold px-6 py-4 rounded-xl transition-colors ${isRecruiterMode
-                  ? "bg-[#ffaa00] text-black hover:bg-[#e69900] shadow-[0_0_20px_-5px_rgba(255,170,0,0.5)]"
-                  : "bg-brand hover:bg-blue-600 shadow-[0_0_20px_-5px_rgba(59,130,246,0.5)]"
+                ? "bg-[#ffaa00] text-black hover:bg-[#e69900] shadow-[0_0_20px_-5px_rgba(255,170,0,0.5)]"
+                : "bg-brand hover:bg-blue-600 shadow-[0_0_20px_-5px_rgba(59,130,246,0.5)]"
                 }`}
             >
               Book a 15-min intro call
@@ -73,7 +73,7 @@ export default function AboutContact() {
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-white transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
-              <Github className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
+              <GithubIcon className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
               <span className="font-medium">github.com/your-username</span>
             </a>
 
@@ -83,7 +83,7 @@ export default function AboutContact() {
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-[#0a66c2] transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
-              <Linkedin className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"} group-hover:text-[#0a66c2] transition-colors`} />
+              <LinkedinIcon className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"} group-hover:text-[#0a66c2] transition-colors`} />
               <span className="font-medium text-white group-hover:text-[#0a66c2] transition-colors">LinkedIn Profile</span>
             </a>
 
