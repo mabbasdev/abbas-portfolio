@@ -26,7 +26,7 @@ export default function AboutContact() {
 
         {/* Contact CTA */}
         <AnimatedElement delay={0.2} className="flex flex-col">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Connect</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let&apos;s Connect</h2>
           <p className="text-white font-medium text-lg mb-8">
             Open for Full-Stack & IT Support Roles.{" "}
             <span className={isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}>
@@ -38,15 +38,14 @@ export default function AboutContact() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
-            <a 
-              href="https://calendly.com/" 
-              target="_blank" 
-              rel="noreferrer" 
-              className={`flex items-center justify-center gap-2 text-white font-bold px-6 py-4 rounded-xl transition-colors ${
-                isRecruiterMode 
-                  ? "bg-[#ffaa00] text-black hover:bg-[#e69900] shadow-[0_0_20px_-5px_rgba(255,170,0,0.5)]" 
+            <a
+              href="https://calendly.com/"
+              target="_blank"
+              rel="noreferrer"
+              className={`flex items-center justify-center gap-2 text-white font-bold px-6 py-4 rounded-xl transition-colors ${isRecruiterMode
+                  ? "bg-[#ffaa00] text-black hover:bg-[#e69900] shadow-[0_0_20px_-5px_rgba(255,170,0,0.5)]"
                   : "bg-brand hover:bg-blue-600 shadow-[0_0_20px_-5px_rgba(59,130,246,0.5)]"
-              }`}
+                }`}
             >
               Book a 15-min intro call
             </a>
@@ -60,8 +59,8 @@ export default function AboutContact() {
           </div>
 
           <div className="space-y-4">
-            <a 
-              href="mailto:your-email@example.com" 
+            <a
+              href="mailto:your-email@example.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 text-muted hover:text-white transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
@@ -69,20 +68,20 @@ export default function AboutContact() {
               <Mail className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
               <span className="font-medium">your-email@example.com</span>
             </a>
-            
-            <a 
-              href="https://github.com/mabbasdev" 
-              target="_blank" 
+
+            <a
+              href="https://github.com/mabbasdev"
+              target="_blank"
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-white transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
               <GithubIcon className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
               <span className="font-medium">github.com/mabbasdev</span>
             </a>
-            
-            <a 
-              href="https://www.linkedin.com/in/mabbasdev" 
-              target="_blank" 
+
+            <a
+              href="https://www.linkedin.com/in/mabbasdev"
+              target="_blank"
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-[#0a66c2] transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
