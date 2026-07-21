@@ -5,6 +5,7 @@ import { AnimatedElement } from "@/components/ui/AnimatedElement";
 import { Mail, MapPin } from "lucide-react";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
+import { useRecruiterMode } from "@/components/providers/RecruiterModeProvider";
 export default function AboutContact() {
   const { isRecruiterMode } = useRecruiterMode();
 
