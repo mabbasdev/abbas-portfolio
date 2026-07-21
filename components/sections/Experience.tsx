@@ -25,11 +25,11 @@ const experiences = [
   },
   {
     company: "Self-Initiated Software Projects",
-    role: "Full-Stack Engineer",
+    role: "Full-Stack Web Engineer",
     date: "2025 – Present",
-    impact: "Engineered independent production-grade applications including MirchiHut (an offline e-commerce engine with zero backend dependency), web-based lead capture tools integrated with Google Apps Script APIs, and dynamic JS tools.",
-    roi: "Zero-Overhead Architecture"
-  },
+    impact: "Architected a custom PHP & MySQL full-stack e-commerce platform featured with a responsive client storefront, dynamic product catalog, and an administrative management dashboard for order, inventory, and user handling—alongside building zero-backend web engines like MirchiHut and custom API lead utilities.",
+    roi: "Full-Stack System Architecture"
+  }
   {
     company: "Systems & Desktop Operations",
     role: "IT & Scripting Automation Specialist",
@@ -60,7 +60,7 @@ export default function Experience() {
           {isRecruiterMode ? "Professional & Practical Impact" : "Experience"}
         </h2>
         <p className="text-muted max-w-2xl text-lg">
-          {isRecruiterMode 
+          {isRecruiterMode
             ? "A proven track record delivering responsive web applications for clients, engineering independent full-stack builds, and managing IT infrastructure."
             : "A showcase of professional internships, freelance client solutions, independent software builds, and system automation workflows."}
         </p>
@@ -69,7 +69,7 @@ export default function Experience() {
       <div ref={containerRef} className="w-full relative ml-3 md:ml-4 pl-8 space-y-16">
         {/* The Animated Glowing Data Stream Line */}
         <div className="absolute top-0 bottom-0 left-[2px] w-px bg-white/10" />
-        <motion.div 
+        <motion.div
           className={`absolute top-0 bottom-0 left-[1px] w-[3px] origin-top transition-colors duration-500 z-20 ${isRecruiterMode ? 'bg-[#ffaa00] shadow-[0_0_15px_1px_rgba(255,170,0,0.5)]' : 'bg-brand shadow-[0_0_15px_1px_rgba(59,130,246,0.5)]'}`}
           style={{ scaleY }}
         />
@@ -83,17 +83,17 @@ export default function Experience() {
             <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mb-3">
               <h3 className="text-xl md:text-2xl font-bold text-white tracking-tight">{exp.role}</h3>
               <span className={`font-bold text-lg transition-colors duration-500 ${isRecruiterMode ? 'text-[#ffaa00]' : 'text-brand'}`}>{exp.company}</span>
-              
+
               {isRecruiterMode && (
                 <div className="px-3 py-1 rounded-lg bg-[#ffaa00]/10 border border-[#ffaa00]/20 flex items-center gap-2 text-[#ffaa00] text-xs font-black uppercase tracking-widest sm:ml-4">
                   <TrendingUp className="w-3 h-3" />
                   {exp.roi}
                 </div>
               )}
-              
+
               <span className="text-sm font-medium text-muted/60 sm:ml-auto border border-white/5 bg-white/5 py-1 px-3 rounded-full">{exp.date}</span>
             </div>
-            
+
             <p className="text-muted leading-relaxed max-w-3xl text-lg relative">
               {exp.impact}
             </p>
