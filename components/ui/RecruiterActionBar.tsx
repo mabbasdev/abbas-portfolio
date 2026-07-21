@@ -43,7 +43,7 @@ export function RecruiterActionBar() {
               {/* Actions */}
               <div className="flex items-center gap-0.5 md:gap-1">
                 <a
-                  href="/Reyyan_Alam_CV.docx"
+                  href="#"
                   download
                   className="p-2 md:p-3 rounded-xl hover:bg-[#ffaa00] hover:text-black text-white transition-all group relative"
                   title="Download Resume"
@@ -55,7 +55,7 @@ export function RecruiterActionBar() {
                 </a>
 
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=reyyanalam6@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=mabbasm1100@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 md:p-3 rounded-xl hover:bg-[#ffaa00] hover:text-black text-white transition-all group relative"
@@ -65,7 +65,7 @@ export function RecruiterActionBar() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/reyyan-alam-a23679363/"
+                  href="https://www.linkedin.com/in/mabbasdev/"
                   target="_blank"
                   className="p-2 md:p-3 rounded-xl hover:bg-[#ffaa00] hover:text-black text-white transition-all group relative"
                 >
@@ -73,7 +73,7 @@ export function RecruiterActionBar() {
                 </a>
 
                 <a
-                  href="https://github.com/Reyyan31"
+                  href="https://github.com/mabbasdev"
                   target="_blank"
                   className="p-2 md:p-3 rounded-xl hover:bg-[#ffaa00] hover:text-black text-white transition-all group relative"
                 >
@@ -81,7 +81,7 @@ export function RecruiterActionBar() {
                 </a>
 
                 <button
-                  onClick={() => copyToClipboard("+92 322 9113106")}
+                  onClick={() => copyToClipboard("+92 307 0555587")}
                   className="p-2 md:p-3 rounded-xl hover:bg-[#ffaa00] hover:text-black text-white transition-all group relative"
                 >
                   <Phone className="w-4 h-4 md:w-5 md:h-5" />
