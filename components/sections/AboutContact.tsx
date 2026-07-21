@@ -2,9 +2,7 @@
 
 import { Section } from "@/components/ui/Section";
 import { AnimatedElement } from "@/components/ui/AnimatedElement";
-import { Mail, MapPin } from "lucide-react";
-import { GithubIcon } from "@/components/icons/GithubIcon";
-import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
+import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 import { useRecruiterMode } from "@/components/providers/RecruiterModeProvider";
 
 export default function AboutContact() {
@@ -20,7 +18,7 @@ export default function AboutContact() {
             I am a Full Stack Developer and IT Specialist who chooses the right tool for the job. While I excel in building responsive ReactJS interfaces and modern TypeScript applications, I bring versatile experience across PHP, Node.js, MySQL, and PostgreSQL.
           </p>
           <p className="text-muted leading-relaxed">
-            I don't just write frontend components or API endpoints; I optimize user performance, manage network access controls, and build native system automation scripts to ensure both web applications and IT infrastructure run reliably.
+            I don&apos;t just write frontend components or API endpoints; I optimize user performance, manage network access controls, and build native system automation scripts to ensure both web applications and IT infrastructure run reliably.
           </p>
         </AnimatedElement>
 
@@ -28,12 +26,12 @@ export default function AboutContact() {
         <AnimatedElement delay={0.2} className="flex flex-col">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Let&apos;s Connect</h2>
           <p className="text-white font-medium text-lg mb-8">
-            Open for Full-Stack & IT Support Roles.{" "}
+            Open for Full-Stack &amp; IT Support Roles.{" "}
             <span className={isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}>
               On-Site (Islamabad) / Remote.
             </span>
             <span className="block mt-2 text-muted text-base">
-              Available for internship & developer opportunities.
+              Available for internship &amp; developer opportunities.
             </span>
           </p>
 
@@ -70,22 +68,22 @@ export default function AboutContact() {
             </a>
 
             <a
-              href="https://github.com/mabbasdev"
+              href="https://github.com/your-username"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-white transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
-              <GithubIcon className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
-              <span className="font-medium">github.com/mabbasdev</span>
+              <Github className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
+              <span className="font-medium">github.com/your-username</span>
             </a>
 
             <a
-              href="https://www.linkedin.com/in/mabbasdev"
+              href="https://www.linkedin.com/in/your-profile"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-[#0a66c2] transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
-              <LinkedinIcon className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"} group-hover:text-[#0a66c2] transition-colors`} />
+              <Linkedin className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"} group-hover:text-[#0a66c2] transition-colors`} />
               <span className="font-medium text-white group-hover:text-[#0a66c2] transition-colors">LinkedIn Profile</span>
             </a>
 
