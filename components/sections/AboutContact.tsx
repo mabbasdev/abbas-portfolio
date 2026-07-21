@@ -38,7 +38,7 @@ export default function AboutContact() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a
-              href="https://calendly.com/"
+              href="https://calendly.com/mabbasm1100/30min"
               target="_blank"
               rel="noreferrer"
               className={`flex items-center justify-center gap-2 text-white font-bold px-6 py-4 rounded-xl transition-colors ${isRecruiterMode
@@ -59,27 +59,27 @@ export default function AboutContact() {
 
           <div className="space-y-4">
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:mabbasm1100@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 text-muted hover:text-white transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
               <Mail className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
-              <span className="font-medium">your-email@example.com</span>
+              <span className="font-medium">mabbasm1100@gmail.com</span>
             </a>
 
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/mabbasdev"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-white transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
             >
               <GithubIcon className={`w-5 h-5 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
-              <span className="font-medium">github.com/your-username</span>
+              <span className="font-medium">github.com/mabbasdev</span>
             </a>
 
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/mabbasdev"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-4 text-muted hover:text-[#0a66c2] transition-colors group p-4 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 w-fit md:w-full max-w-sm"
