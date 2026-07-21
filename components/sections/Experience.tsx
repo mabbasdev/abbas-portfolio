@@ -27,7 +27,7 @@ const experiences = [
     company: "Self-Initiated Software Projects",
     role: "Full-Stack Web Engineer",
     date: "2025 – Present",
-    impact: "Architected a custom PHP & MySQL full-stack e-commerce platform featured with a responsive client storefront, dynamic product catalog, and an administrative management dashboard for order, inventory, and user handling—alongside building zero-backend web engines like MirchiHut and custom API lead utilities.",
+    impact: "Architected a custom PHP & MySQL backed full-stack e-commerce platform featured with a responsive client storefront, dynamic product catalog, and an administrative management dashboard for order, inventory, and user handling—alongside building zero-backend storefront and custom API lead utilities.",
     roi: "Full-Stack System Architecture"
   },
   {

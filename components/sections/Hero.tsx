@@ -40,7 +40,7 @@ export default function Hero() {
             </AnimatedElement>
 
             <AnimatedElement delay={0.2} direction="up" className="max-w-2xl">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-foreground mb-6 leading-tight flex flex-col items-center gap-4">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-foreground mb-6 leading-tight flex flex-col items-start gap-4">
                 <Terminal className={`w-8 h-8 md:w-10 md:h-10 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
                 Full Stack Developer
                 <Terminal className={`w-8 h-8 md:w-10 md:h-10 ${isRecruiterMode ? "text-[#ffaa00]" : "text-brand"}`} />
