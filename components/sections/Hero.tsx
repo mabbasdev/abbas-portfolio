@@ -54,7 +54,7 @@ export default function Hero() {
                   </>
                 ) : (
                   <>
-                    Full-Stack Developer & IT Specialist engineering performant web applications and system tools. I build responsive frontends with ReactJS and Tailwind CSS, integrate robust backend APIs (Node.js, PHP, PostgreSQL), and automate desktop workflows.
+                    Full-Stack Developer & IT Specialist engineering performant web applications and system tools. I build responsive Front-ends with ReactJS and Tailwind CSS, integrate robust backend APIs (Node.js, PHP, PostgreSQL), and automate desktop workflows.
                   </>
                 )}
               </p>
