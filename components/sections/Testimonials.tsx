@@ -4,14 +4,14 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Abdul Hakeem Khan",
-    role: "Backend Team Lead, Creative IT Park",
-    text: "Reyyan's ability to seamlessly architect and deploy large-scale ERPs transformed our operations. His deep understanding of backend optimization ensured zero downtime even during our heaviest usage spikes.",
+    name: "Ahsan",
+    role: "Network Administrator, ICCI",
+    text: "Muhammad stands out for his proactive problem-solving and technical versatility. Whether configuring user permissions, writing OS automation scripts, or debugging complex layout issues, he works efficiently and ensures absolute reliability.",
   },
   {
     name: "Michel",
-    role: "Technical Lead, Nodescale LLC (US)",
-    text: "Working across time zones, Reyyan consistently delivered highly robust API integrations. The WebSocket latency drops he achieved on the BuzzMap project were completely critical to our US launch.",
+    role: "Systems Administrator, ICCI",
+    text: "Muhammad’s ability to troubleshoot complex UI issues and maintain smooth IT network operations was invaluable. His attention to detail on front-end optimization significantly improved user experience and system responsiveness.",
   },
 ];
 

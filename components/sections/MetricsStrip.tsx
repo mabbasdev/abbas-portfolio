@@ -2,12 +2,11 @@ import { AnimatedElement } from "@/components/ui/AnimatedElement";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 
 const metrics = [
-  { label: "Active Users Served", value: 1, suffix: "M+" },
-  { label: "Student ERP Implemented", value: 12000, suffix: "+" },
-  { label: "Platform Users", value: 100000, suffix: "+" },
-  { label: "Performance Boost", value: 25, suffix: "%" },
+  { label: "Core Web Vitals Performance", value: 95, suffix: "+" },
+  { label: "Full-Stack & Utility Builds", value: 5, suffix: "+" },
+  { label: "Responsive UI Compatibility", value: 100, suffix: "%" },
+  { label: "System Uptime & Reliability", value: 99.9, suffix: "%" },
 ];
-
 export default function MetricsStrip() {
   return (
     <section className="w-full py-16 border-y border-white/5 bg-white/[0.02]">

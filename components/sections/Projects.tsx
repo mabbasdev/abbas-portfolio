@@ -75,11 +75,11 @@ export default function Projects() {
     <Section id="projects">
       <AnimatedElement className="w-full mb-12">
         <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight">
-          {isRecruiterMode ? "Enterprise Grade Solutions" : "Mission Critical Deployments"}
+          {isRecruiterMode ? "Featured Solutions & Builds" : "Full-Stack & Systems Showcase"}
         </h2>
         <p className="text-muted max-w-2xl text-lg">
           {isRecruiterMode 
-            ? "A showcase of high-performance production systems built to handle massive scale, secure data, and absolute reliability."
+            ? "A showcase of web applications, responsive frontend solutions, and custom system tools built with modern frameworks and clean architecture."
             : "A showcase of production systems I have built and maintained, focusing on backend scale, data management, and absolute system reliability."}
         </p>
       </AnimatedElement>

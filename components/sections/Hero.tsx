@@ -151,12 +151,12 @@ export default function Hero() {
                           },
                           {
                             label: "Full-Stack & Backend Web",
-                            value: "88%",
+                            value: "90%",
                             desc: "Node.js, Express, PHP, MySQL, PostgreSQL, REST APIs"
                           },
                           {
                             label: "IT Support & Infrastructure",
-                            value: "85%",
+                            value: "95%",
                             desc: "Active Directory, Network Config, System Access, OS Scripting & Automation"
                           }
                         ].map((stat, i) => (
