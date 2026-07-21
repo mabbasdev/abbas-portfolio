@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Reyyan Alam | MERN Stack Developer",
+  title: "Muhammad Abbas | MERN Stack Developer",
   description: "I'm MERN stack developer focused on building scalable web applications. With expertise across the entire JavaScript stack, I deliver robust solutions from concept to deployment.",
 };
 

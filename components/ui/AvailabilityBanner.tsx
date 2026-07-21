@@ -15,7 +15,7 @@ export function AvailabilityBanner() {
           <span className="relative inline-flex rounded-full h-3 w-3 bg-green-400"></span>
         </span>
         <span className="hidden sm:inline">Availability:</span> 
-        <span>Available from May 2026 — Currently Interviewing</span>
+        <span>Available for Full-Stack & Web Development Opportunities</span>
       </div>
     </motion.div>
   );
