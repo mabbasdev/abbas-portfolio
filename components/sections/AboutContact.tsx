@@ -46,7 +46,7 @@ export default function AboutContact() {
                 : "bg-brand hover:bg-blue-600 shadow-[0_0_20px_-5px_rgba(59,130,246,0.5)]"
                 }`}
             >
-              Book a 15-min intro call
+              Book a 30-min intro call
             </a>
             <div className="flex items-center gap-3 px-6 py-4 rounded-xl bg-[#ffaa00]/10 border border-[#ffaa00]/20 text-[#ffaa00] font-semibold text-sm">
               <span className="relative flex h-3 w-3">

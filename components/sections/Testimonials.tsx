@@ -9,7 +9,7 @@ const testimonials = [
     text: "Muhammad stands out for his proactive problem-solving and technical versatility. Whether configuring user permissions, writing OS automation scripts, or debugging complex layout issues, he works efficiently and ensures absolute reliability.",
   },
   {
-    name: "Michel",
+    name: "Arsalan",
     role: "Systems Administrator, ICCI",
     text: "Muhammad’s ability to troubleshoot complex UI issues and maintain smooth IT network operations was invaluable. His attention to detail on front-end optimization significantly improved user experience and system responsiveness.",
   },

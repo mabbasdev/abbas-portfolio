@@ -151,23 +151,37 @@ export function CVModal({ isOpen, onClose }: CVModalProps) {
                     </div>
 
                     <div>
-                      <div className="font-bold text-black text-[14px]">MirchiHut – Zero-Backend E-Commerce Engine <span className="font-normal italic"> | Vanilla JavaScript • HTML5 • Tailwind CSS • WhatsApp API</span></div>
+                      <div className="font-bold text-black text-[14px]">Enterprise React Admin Dashboard <span className="font-normal italic"> | ReactJS • Material UI • Nivo Charts</span></div>
                       <ul className="list-none pl-3 space-y-1 text-neutral-900 text-[14px] leading-snug mt-1">
-                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Built an offline, lightweight e-commerce web application featuring client-side cart management and automated WhatsApp order routing without server overhead.</li>
+                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Built an enterprise-grade admin dashboard featuring customizable data tables, interactive analytical charts, calendar scheduling, dark/light mode toggling, and schema-validated forms.</li>
                       </ul>
                     </div>
 
                     <div>
-                      <div className="font-bold text-black text-[14px]">Lead Capture &amp; Compliance Utility <span className="font-normal italic"> | HTML5 • PHP • Google Apps Script • TrustedForm API</span></div>
+                      <div className="font-bold text-black text-[14px]">Corporate EMS (Employee Management System) <span className="font-normal italic"> | PHP/Laravel • MySQL • MERN Stack</span></div>
                       <ul className="list-none pl-3 space-y-1 text-neutral-900 text-[14px] leading-snug mt-1">
-                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Created a secure lead collection pipeline mapping form submissions directly to a structured Google Sheets database via automated webhook handlers.</li>
+                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Engineering an enterprise portal combining PHP/MySQL and MERN stack workflows to handle corporate bulk messaging, email dispatch, and automated attendance tracking.</li>
                       </ul>
                     </div>
 
                     <div>
-                      <div className="font-bold text-black text-[14px]">Color Palette Generator <span className="font-normal italic"> | Vanilla JavaScript • Clipboard API • GitHub Pages</span></div>
+                      <div className="font-bold text-black text-[14px]">Boiler Techniques Website <span className="font-normal italic"> | HTML5 • CSS3 • Tailwind CSS</span></div>
                       <ul className="list-none pl-3 space-y-1 text-neutral-900 text-[14px] leading-snug mt-1">
-                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Engineered a lightweight web application that dynamically generates random hexadecimal color codes with instant clipboard copying, deployed live on GitHub Pages.</li>
+                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Designed and developed a clean, responsive industrial corporate website built to showcase engineering services, technical specifications, and client solution portfolios.</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <div className="font-bold text-black text-[14px]">Full-Stack PHP/MySQL E-Commerce Market <span className="font-normal italic"> | PHP • MySQL • Payment APIs</span></div>
+                      <ul className="list-none pl-3 space-y-1 text-neutral-900 text-[14px] leading-snug mt-1">
+                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Developed a feature-rich online shopping platform with custom product catalogs, user authentication, inventory management, and multi-gateway payment API integrations.</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <div className="font-bold text-black text-[14px]">Animated Neon Personal Portfolio <span className="font-normal italic"> | ReactJS • Tailwind CSS • Framer Motion</span></div>
+                      <ul className="list-none pl-3 space-y-1 text-neutral-900 text-[14px] leading-snug mt-1">
+                        <li className="relative before:content-['▪'] before:absolute before:-left-3 before:text-[10px] before:top-[3px]">Crafted an interactive, dark-mode personal portfolio featuring custom neon visual themes, smooth entrance animations, and responsive layout scaling.</li>
                       </ul>
                     </div>
                   </div>
