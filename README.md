@@ -1,32 +1,33 @@
-# 🚀 Premium Backend Engineer Portfolio
+# 🚀 Full-Stack & IT Support Engineering Portfolio
 
-A high-performance, recruiter-optimized portfolio built for **Reyyan Alam**, specialized in Backend Engineering, Cloud Systems, and Scaling.
+A high-performance, recruiter-optimized portfolio built for **Muhammad Abbas**, specializing in Full-Stack Web Development, Interface Performance, and Systems Support Engineering.
 
-![Portfolio Preview](https://reyyan-portfolio.vercel.app/)
+![Portfolio Preview](https://abbas-portfolio-dev.vercel.app/)
 
 ## 🌟 Key Features
 
-- **Recruiter-Mode Toggle**: Instantly swops the UI from a high-technical "Developer" view to a business-focused "Recruiter" view, highlighting ROI, metrics, and conversion stats.
-- **Live Log Terminal**: A real-time terminal simulator showcasing backend scaling logs, cache hits, and traffic spikes.
-- **Native Web CV**: A custom-built, typography-perfect replica of the professional CV within a native React modal.
-- **Public Status API**: A functioning Public REST API (`/api/status`) that returns candidate availability and tech metrics in formatted JSON.
-- **Deep-Dive Case Studies**: Dedicated routes for large-scale projects like **PomPak** (1M+ Users) with visual architecture breakdowns.
-- **Premium Design**: Dark mode aesthetic with glassmorphism, Framer Motion animations, and a focus on engineering metrics.
+- **Recruiter-Mode Toggle**: Instantly swaps the UI from a developer-focused "Technical" view to a business-focused "Recruiter" view, highlighting verified experience, ROI, and core competencies.
+- **Interactive Experience & Arsenal Timelines**: Displays full-stack project builds, client solutions, and hands-on IT support work at the Islamabad Chamber of Commerce & Industry (ICCI).
+- **Native Web CV**: A custom-built, typography-perfect replica of the professional CV accessible natively on the web.
+- **Public Status API**: A functioning Public REST API (`/api/status`) returning candidate availability, core stack, and education details in formatted JSON.
+- **Deep-Dive Case Studies**: Showcase routes for production applications including **MirchiHut** (zero-backend e-commerce) and custom lead capture tools.
+- **Premium Design**: Dark-mode aesthetic with glassmorphism, Framer Motion animations, and a focus on clean UI performance and core web vitals.
 
 ## 🛠 Tech Stack
 
 - **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
-- **Logic**: TypeScript
-- **Styling**: Tailwind CSS v4
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Deployment**: Optimized for static export (`output: export`) or Vercel.
+- **Languages & Core**: TypeScript, JavaScript (ES6+), HTML5, CSS3
+- **Frontend & Styling**: ReactJS, Tailwind CSS
+- **Backend & Databases**: PHP, Node.js, Express.js, MySQL, PostgreSQL, MongoDB
+- **IT & Scripting**: Active Directory, Network IP Config, PowerShell, Python, Git/GitHub
+- **Animations & Icons**: Framer Motion, Lucide React
+- **Deployment**: Vercel
 
-## 📈 Performance & Impact
+## 📈 Core Competencies & Impact
 
-- **Scale**: Handled systems with **1M+ registered users**.
-- **Latency**: Optimization achieved **<50ms WebSocket broadcast latency**.
-- **Reliability**: Maintained **99.99% uptime** on US-market production platforms.
+- **Frontend Optimization**: Re-engineered portal interfaces resolving cross-device responsiveness and boosting Core Web Vitals.
+- **Zero-Overhead Builds**: Engineered zero-backend web apps (MirchiHut) using in-memory systems and direct WhatsApp order APIs.
+- **IT Systems Support**: Configured network IP schemas, managed Active Directory permissions, and developed desktop automation scripts.
 
 ## 🚀 Getting Started
 
@@ -39,31 +40,4 @@ A high-performance, recruiter-optimized portfolio built for **Reyyan Alam**, spe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Reyyan31/portfolio.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-### Building for Production
-
-To generate a static export (located in the `/out` directory):
-```bash
-npm run build
-```
-
-## 📬 Contact & Connect
-
-- **Website**: (https://reyyan-portfolio.vercel.app/)
-- **LinkedIn**: [linkedin.com/in/reyyan-alam-a23679363](https://www.linkedin.com/in/reyyan-alam-a23679363/)
-- **Email**: [reyyanalam6@gmail.com](mailto:reyyanalam6@gmail.com)
-- **Calendly**: [Book a 15-min call](https://calendly.com/reyyanalam6/15-minute-meeting)
-
----
-
-Developed with ❤️ by **Reyyan Alam**.
+   git clone [https://github.com/mabbasdev/abbas-portfolio.git](https://github.com/mabbasdev/abbas-portfolio.git)

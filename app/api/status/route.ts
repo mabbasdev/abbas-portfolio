@@ -3,22 +3,31 @@ export async function GET() {
     status: 200,
     available: true,
     candidate: {
-      name: "Reyyan Alam",
-      role: "Backend Engineer",
+      name: "Muhammad Abbas",
+      role: "Full-Stack Web Developer & IT Specialist",
+      location: "Islamabad, Pakistan",
       timezone: "PKT (UTC+5)",
-      specialty: "High-Availability Systems & Fast API Development",
+      specialty: "Responsive Frontend Engineering, Custom APIs & Systems Automation",
     },
     open_to: [
-      "Remote (Global)",
-      "EU/US/UK Relocation Ready",
-      "On-site (Pakistan Only)"
+      "On-site (Islamabad, Pakistan)",
+      "Remote Opportunities",
+      "Full-Stack Developer & IT Support Engineer Roles"
     ],
-    core_stack: ["Node.js", "PHP/Laravel", "SQL Server", "Redis", "Docker"],
-    metrics: {
-      max_users_handled: "1M+",
-      avg_api_latency: "under 50ms",
+    core_stack: [
+      "ReactJS",
+      "TypeScript",
+      "Tailwind CSS",
+      "PHP & MySQL",
+      "Node.js & Express",
+      "Active Directory & Systems Scripting"
+    ],
+    highlights: {
+      education: "BS Computer Science (FUUAST)",
+      key_experience: "IT Support Engineer Intern @ ICCI",
+      architecture_focus: "Zero-Backend Solutions & Responsive Web Vitals",
     },
-    message: "If you are a recruiter or engineering manager reading this native JSON response... we should definitely talk.",
+    message: "If you are a recruiter or engineering manager reading this native JSON response... let's connect and build something great together.",
   };
 
   const prettyJson = JSON.stringify(payload, null, 2);
