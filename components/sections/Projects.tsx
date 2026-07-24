@@ -7,70 +7,102 @@ import { useRecruiterMode } from "@/components/providers/RecruiterModeProvider";
 
 const projects = [
   {
-    title: "PomPak – National Platform",
-    description: "National financial literacy platform backed by State Bank of Pakistan & JazzCash. Handled scale for 1M+ users, 750k+ students across 45+ districts.",
-    tech: ["PHP/Laravel", "SQL Server", "JavaScript", "Docker", "AWS"],
-    metrics: "1M+ Users • 750k+ Students",
+    title: "Islamabad Chamber of Commerce Portal",
+    description: "Re-engineered the official web portal frontend into a modular ReactJS application, resolving cross-device breakpoint scaling issues, fixing layout bugs, and optimizing Core Web Vital metrics.",
+    tech: ["ReactJS", "Tailwind CSS", "JavaScript", "HTML5"],
+    metrics: "Enhanced Web Vitals • Fully Responsive",
     images: [
-      "/project-imgs/pompak-1.jpg",
-      "/project-imgs/pompak-2.jpg",
-      "/project-imgs/pompak-3.jpg",
-      "/project-imgs/pompak-4.jpg"
+      "/project-imgs/icci-1.png",
+      "/project-imgs/icci-2.png",
+      "/project-imgs/icci-3.png",
+      "/project-imgs/icci-4.png"
     ],
-    live: "https://nflpy.knowledgeplatform.com",
-    github: null,
-    caseStudyHref: "/case-studies/pompak",
-    blogHref: "/blog/1m-users-laravel",
+    live: "https://project-icci.vercel.app/",
+    github: "https://github.com/mabbasdev/project-icci",
   },
   {
-    title: "BuzzMap",
-    description: "Engineered real-time event discovery backend delivering geolocation APIs. Achieved <50ms WebSocket latency, 99.99% uptime, and scaled Redis caching for 10k+ req/sec to meet strict US production requirements.",
-    tech: ["Node.js", "Express", "MongoDB", "Redis", "WebSockets"],
-    metrics: "<50ms Latency • 99.99% Uptime",
+    title: "Enterprise React Admin Dashboard",
+    description: "Built an enterprise-grade, fully functional admin dashboard featuring customizable data tables, interactive analytical charts, calendar scheduling, dark/light mode toggling, and schema-validated forms.",
+    tech: ["ReactJS", "Material UI", "Nivo Charts", "JavaScript"],
+    metrics: "Data Visualization • Full Theme Customization",
     images: [
-      "/project-imgs/buzzmap-1.jpeg",
-      "/project-imgs/buzzmap-2.jpeg",
-      "/project-imgs/buzzmap-3.jpeg",
-      "/project-imgs/buzzmap-4.jpeg"
+      "/project-imgs/admin-dash-mui-1.png",
+      "/project-imgs/admin-dash-mui-2.png",
+      "/project-imgs/admin-dash-mui-3.png",
+      "/project-imgs/admin-dash-mui-4.png",
+      "/project-imgs/admin-dash-mui-5.png",
+      "/project-imgs/admin-dash-mui-6.png",
+      "/project-imgs/admin-dash-mui-7.png"
     ],
-    live: "https://buzzmap.org",
-    github: null,
-    caseStudyHref: "/case-studies/buzzmap",
-    blogHref: "/blog/scaling-websockets",
+    live: "https://react-admin-dashboard-material-ui-n.vercel.app/",
+    github: "https://github.com/mabbasdev/react-admin-dashboard-material-ui-nivo-chart",
   },
   {
-    title: "SLS – School Management",
-    description: "Comprehensive school ERP managing 12,000+ students across 8 portals. Includes full financial audit suite and bulk challenge printing.",
-    tech: ["PHP/Laravel", "MySQL", "Bootstrap"],
-    metrics: "12,000+ Students",
+    title: "Corporate EMS (Employee Management System)",
+    description: "Currently engineering an enterprise portal combining PHP/Laravel & MySQL with MERN stack options. Designed to handle full corporate workflows including bulk/individual messaging, email dispatch, and automated attendance tracking.",
+    tech: ["PHP/Laravel", "MySQL", "ReactJS", "Node.js", "Express"],
+    metrics: "In Active Development • All-In-One Corporate Suite",
     images: [
-      "/project-imgs/sls-1.jpg",
-      "/project-imgs/sls-2.webp"
+      "/project-imgs/ems-1.png",
+      "/project-imgs/ems-2.png",
+      "/project-imgs/ems-3.png",
+      "/project-imgs/ems-4.png",
+      "/project-imgs/ems-5.png",
+      "/project-imgs/ems-6.png",
+      "/project-imgs/ems-7.png",
+      "/project-imgs/ems-8.png",
+      "/project-imgs/ems-9.png"
     ],
-    live: "https://sls.creativeitpark.org",
-    github: null,
-    caseStudyHref: "/case-studies/sls",
-    blogHref: "/blog/automating-erp-audits",
+    live: "null",
+    github: "null",
   },
   {
-    title: "Hello Creative IT Portal",
-    description: "Company-wide CRM/ERP managing HR, payroll, deal pipelines, and a full double-entry accounting module (ledger, P&L, balance sheet).",
-    tech: ["PHP/Laravel", "MySQL", "Vue.js", "Redis"],
-    metrics: "Double-Entry Accounting",
+    title: "Boiler Techniques Website",
+    description: "Designed and developed a clean, responsive industrial corporate website built to showcase engineering services, technical specifications, and client solution portfolios.",
+    tech: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS"],
+    metrics: "Industrial Client Solution • Optimized Layouts",
     images: [
-      "/project-imgs/hello-1.jpg",
-      "/project-imgs/hello-2.webp"
+      "/project-imgs/boiler-tech-1.png",
+      "/project-imgs/boiler-tech-2.png",
+      "/project-imgs/boiler-tech-3.png",
+      "/project-imgs/boiler-tech-4.png",
+      "/project-imgs/boiler-tech-5.png"
     ],
-    live: "https://hello.creativeitpark.org",
-    github: null,
-    caseStudyHref: "/case-studies/hello-creative-it",
-    blogHref: "/blog/double-entry-accounting-php",
+    live: "https://mabbasdev.github.io/boiler-tech/",
+    github: "https://github.com/mabbasdev/boiler-tech",
+  },
+  {
+    title: "Full-Stack PHP/MySQL E-Commerce Market",
+    description: "Developed a feature-rich online shopping platform with custom product catalogs, user authentication, inventory management, and multi-gateway payment API integrations.",
+    tech: ["PHP", "MySQL", "JavaScript", "Payment APIs"],
+    metrics: "Multi-Payment Gateway • Dynamic Catalog",
+    images: [
+      "/project-imgs/ecom-php-1.png",
+      "/project-imgs/ecom-php-2.png",
+      "/project-imgs/ecom-php-3.png",
+      "/project-imgs/ecom-php-4.png",
+      "/project-imgs/ecom-php-5.png"
+    ],
+    live: "https://mabbasdev.github.io/ecom-market-html",
+    github: "https://github.com/mabbasdev/ecom-market-html",
+  },
+  {
+    title: "Animated Neon Personal Portfolio",
+    description: "Crafted an interactive, dark-mode personal portfolio featuring custom neon visual themes, smooth entrance animations, and responsive layout scaling.",
+    tech: ["ReactJS", "Tailwind CSS", "Framer Motion", "JavaScript"],
+    metrics: "Custom UI FX • High Frame Rate Animations",
+    images: [
+      "/project-imgs/neon-1.png",
+      "/project-imgs/neon-2.png"
+    ],
+    live: "https://react-tailwind-personal-neon-animat.vercel.app/",
+    github: "https://github.com/mabbasdev/react-tailwind-personal-neon-animated-portfolio",
   },
 ];
 
 export default function Projects() {
   const { isRecruiterMode } = useRecruiterMode();
-  
+
   return (
     <Section id="projects">
       <AnimatedElement className="w-full mb-12">
@@ -78,7 +110,7 @@ export default function Projects() {
           {isRecruiterMode ? "Featured Solutions & Builds" : "Full-Stack & Systems Showcase"}
         </h2>
         <p className="text-muted max-w-2xl text-lg">
-          {isRecruiterMode 
+          {isRecruiterMode
             ? "A showcase of web applications, responsive frontend solutions, and custom system tools built with modern frameworks and clean architecture."
             : "A showcase of production systems I have built and maintained, focusing on backend scale, data management, and absolute system reliability."}
         </p>
@@ -91,7 +123,7 @@ export default function Projects() {
             delay={index * 0.1}
             className="flex w-full"
           >
-             <ProjectCard project={project} />
+            <ProjectCard project={project} />
           </AnimatedElement>
         ))}
       </div>
