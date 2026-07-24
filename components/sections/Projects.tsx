@@ -38,7 +38,7 @@ const projects = [
     github: "https://github.com/mabbasdev/react-admin-dashboard-material-ui-nivo-chart",
   },
   {
-    title: "Corporate EMS (Employee Management System)",
+    title: "Employee Management System",
     description: "Currently engineering an enterprise portal combining PHP/Laravel & MySQL with MERN stack options. Designed to handle full corporate workflows including bulk/individual messaging, email dispatch, and automated attendance tracking.",
     tech: ["PHP/Laravel", "MySQL", "ReactJS", "Node.js", "Express"],
     metrics: "In Active Development • All-In-One Corporate Suite",
@@ -72,7 +72,7 @@ const projects = [
     github: "https://github.com/mabbasdev/boiler-tech",
   },
   {
-    title: "Full-Stack PHP/MySQL E-Commerce Market",
+    title: "Full-Stack E-Commerce Market",
     description: "Developed a feature-rich online shopping platform with custom product catalogs, user authentication, inventory management, and multi-gateway payment API integrations.",
     tech: ["PHP", "MySQL", "JavaScript", "Payment APIs"],
     metrics: "Multi-Payment Gateway • Dynamic Catalog",
@@ -92,8 +92,7 @@ const projects = [
     tech: ["ReactJS", "Tailwind CSS", "Framer Motion", "JavaScript"],
     metrics: "Custom UI FX • High Frame Rate Animations",
     images: [
-      "/project-imgs/neon-1.png",
-      "/project-imgs/neon-2.png"
+      "/project-imgs/portfolio.png"
     ],
     live: "https://react-tailwind-personal-neon-animat.vercel.app/",
     github: "https://github.com/mabbasdev/react-tailwind-personal-neon-animated-portfolio",

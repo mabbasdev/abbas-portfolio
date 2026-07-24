@@ -87,11 +87,11 @@ export function ProjectCard({ project }: { project: ProjectProps }) {
             <h3 className="text-xl font-semibold text-white tracking-tight">{project.title}</h3>
           </div>
           <div className="flex gap-3 text-muted shrink-0 z-20 relative">
-            {project.github && (
+            {/* {project.github && (
               <a href={project.github} target="_blank" rel="noreferrer" className="hover:text-white transition-colors cursor-pointer p-1">
                 <GithubIcon className="w-5 h-5" />
               </a>
-            )}
+            )} */}
             {project.live && (
               <a href={project.live} target="_blank" rel="noreferrer" className="hover:text-white transition-colors cursor-pointer p-1">
                 <ExternalLink className="w-5 h-5" />
